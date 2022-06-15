@@ -17,13 +17,16 @@ button{
     color: #46484c;
 }
 .header{
-    margin-top: 40px;
+   /*  margin-top: 40px;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 20px; */
+    margin: 40px 20px 0;
     font-size: 0;
+    color: #025157;
 }
 li{
     display: inline;
+    margin: 0 25px;
 }
 .header >*{
     display: inline-block;
@@ -43,13 +46,42 @@ li{
 }
 .navbar{
     width: 70%;
+    height: 45px;
     text-align: center;
     color: #025157;
     font-weight: 500;
+    text-align: left;
+    font-style: sans-serif;
 }
 .actions{
     width: 15%;
     text-align: right;
     font-size: 14px;
     font-weight: 600;
+   
+
+}
+.actions> button{
+    color: white;
+    background-color: #67b54b;
+    border-radius: 5px;
+    padding: 12px 14px;
+    margin: 10px;
+    border: none;
+
+}
+.actions >*{
+    margin: 0 10px;
+}
+.actions > a{
+    
+    color: #67b54b;
+    
+    
+
+}
+
+.main{
+    margin-top: 140px;
+    text-align: center;
 }
